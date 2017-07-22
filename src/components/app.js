@@ -6,7 +6,7 @@ angular.module('video-player')
     this.videos = window.exampleVideoData;
     this.currentVideo = this.videos[0];
     this.selectVideo = (video) => {
-      //console.log('clicked');
+      console.log('clicked');
       this.currentVideo = video;
     };
     this.searchResults = () => {
