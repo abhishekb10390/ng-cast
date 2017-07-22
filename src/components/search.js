@@ -2,7 +2,7 @@ angular.module('video-player')
 
 .component('search', {
   controller: function() {
-  
+   
   // this.handleUserInput(props)  {
     
   //   var query = document.getElementById('input').value;
